@@ -1,1 +1,41 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+  }
 
+  .top-wrapper {
+    padding: 200px 0 150px 0;
+    background-color: darkcyan;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    
+  }
+
+  .top-wrapper h1 {
+      font-family: 'Roboto Slab';
+      font-size: 60px;
+      letter-spacing: 7px;
+  }
+
+  .top-wrapper h2 {
+      font-family: serif;
+      font-size: 25px;
+      margin-bottom: -20px;
+  }
+  
+  .top-wrapper h3 {
+    font-family: serif;
+    font-size: 20px;
+    margin-bottom: 2px;
+  }
+
+
+  .top-wrapper img {
+      height: 45%;
+      width: 45%;
+  }

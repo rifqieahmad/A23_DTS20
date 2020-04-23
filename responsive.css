@@ -1,9 +1,22 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
- 
+    .top-wrapper h1 {
+        font-size: 45px;
+    }
+
+    .top-wrapper h2 {
+        font-size: 20px;
+    }
+
+    .top-wrapper h3 {
+        font-size: 15px;
+    }
 }
 
 /* Untuk Smartphone */
-@media all and (max-width: 670px) {
- 
-}
+/* @media all and (max-width: 670px) {
+    .top-wrapper {
+        text-align: left;
+        padding-left: 15px;
+    }
+} */
