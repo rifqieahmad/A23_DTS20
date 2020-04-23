@@ -7,6 +7,20 @@
     font-family: 'Roboto Slab', serif;
   }
 
+  .container{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+    
+  .header-title{
+    font-family: "Lato";
+    font-size: 50px;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+
   .top-wrapper {
     padding: 200px 0 150px 0;
     background-color: darkcyan;
@@ -39,3 +53,57 @@
       height: 45%;
       width: 45%;
   }
+
+  /*portofolio*/
+			
+  .portofolio{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .portofolio-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .portofolio-item{
+    width: 33.33%;
+    padding: 0 20px;
+    margin-bottom: 30px;
+  }
+  
+  .portfolio-select{
+    position: relative;
+    height: 100%;
+  }
+
+  .portofolio-item-hover{
+    position: absolute;
+    background-color:rgba(26, 188, 156, 0.9);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .portofolio-item-hover p{
+    padding-top: 80px;
+    color: white;
+    font-size: 24px;
+  }
+
+  .portofolio-icon{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+  }
+
+  .portofolio-item:hover .portfolio-select .portofolio-item-hover{
+    opacity: 1;
+  }
+    
+/* portofolio */
