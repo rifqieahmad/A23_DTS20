@@ -107,3 +107,77 @@
   }
     
 /* portofolio */
+  
+.about-wrapper {
+  height: 540px;
+  padding-bottom: 80px;
+  background-color: rgb(229, 208, 190);
+
+  /* background-color: #09317ce1; */
+  text-align: center;
+}
+
+.heading {
+  padding-top: 10px;
+  color: #3b3a3b;
+}
+
+.heading h1 {
+  font-family: 'Roboto Slab';
+  font-size: 60px;
+  letter-spacing: 7px;
+  margin-bottom: 5px;
+  margin-top: 45px;
+}
+
+.desc {
+  float: left;
+  width: 50%;
+  margin-top: 30px;
+}
+
+.desc-icon {
+  position: relative;
+}
+
+.desc-icon .img1 {
+  height: 130px;
+  width: 280px;
+}
+
+.desc-icon .img2 {
+  height: 120px;
+  width: 155px;
+  margin-bottom: 10px;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #7d7a7e;
+}
+
+.divider-custom {
+  /* margin: 1.25rem 0 1.5rem; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider-custom .divider-custom-line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #7d7a7e;
+  border-radius: 1rem;
+  border-color: #7d7a7e !important;
+}
+
+.divider-custom .divider-custom-icon {
+  color: #535253 !important;
+  font-size: 2rem;
+  margin: 10px 10px;
+}
